@@ -1,0 +1,223 @@
+/* ===========================
+   BYU Cougars — FromScratch.css
+   =========================== */
+
+* , *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.75;
+  color: #1a1a1a;
+  background-color: #f7f5f0;
+}
+
+a {
+  color: #002e6d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  background-color: #002e6d;
+  color: #ffffff;
+  padding: 2rem 2rem 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.byu-logo {
+  width: 80px;
+  height: auto;
+}
+
+.header-text h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.tagline {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #a8bbd6;
+  margin-top: 0.25rem;
+}
+
+.site-nav {
+  display: flex;
+  gap: 0;
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 0.5rem;
+}
+
+.site-nav a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a8bbd6;
+  padding: 0.5rem 1.25rem;
+  transition: color 0.2s;
+}
+
+.site-nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.section-alt {
+  background-color: #eceae3;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #002e6d;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #002e6d;
+  padding-bottom: 0.4rem;
+  display: inline-block;
+}
+
+.section p {
+  margin-top: 0.75rem;
+  max-width: 680px;
+  color: #2a2a2a;
+}
+
+.section-img {
+  display: block;
+  margin: 2rem 0;  /* change "auto" to "0" */
+  max-width: 600px;
+  height: auto;
+
+}
+
+.sports-list {
+  margin-top: 1.25rem;
+  padding-left: 1.5rem;
+  color: #1a1a1a;
+}
+
+.sports-list > li {
+  margin-bottom: 1.25rem;
+}
+
+.sports-list > li strong {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+  color: #002e6d;
+}
+
+.sports-list ul {
+  margin-top: 0.4rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.sports-list ul li {
+  font-size: 0.95rem;
+  color: #3a3a3a;
+  margin-bottom: 0.2rem;
+}
+
+.video-wrapper {
+  margin-top: 1.5rem;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border: 3px solid #002e6d;
+  border-radius: 4px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tableau-wrapper {
+  margin-top: 1.5rem;
+  border: 1px solid #c8c4bb;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.tableau-note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.75rem;
+}
+
+.site-footer {
+  background-color: #001a3f;
+  color: #a8bbd6;
+  text-align: center;
+  padding: 1.75rem 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+.site-footer a:hover {
+  color: #a8bbd6;
+}
+
+.creator-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  background-color: #002e6d;
+  padding: 0.6rem 1.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.creator-link:hover {
+  background-color: #001a3f;
+  text-decoration: none;
+}
